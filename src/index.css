@@ -1,0 +1,46 @@
+.Square {
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: white;
+    color: #374151;
+    font-size: 2rem;
+    border: 1px solid #d2d6dc;
+    font-weight: bold;
+}
+
+.Square:hover {
+    cursor: pointer;
+}
+
+.Board {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game {
+    margin: 100px;
+   text-align: center; 
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+.Board > button {
+    margin: 10px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    border-radius: 0.5rem;
+    border: 0;
+    border: 1px solid white;
+    font-weight: bold; 
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+    cursor: pointer;
+}
